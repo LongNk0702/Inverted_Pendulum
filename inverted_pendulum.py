@@ -194,7 +194,7 @@ def main(control_technique):
 if __name__ == "__main__":
 	arguments = sys.argv
 	if len(arguments) < 2:
-		print "Useage: python inverted_pendulum.py <control_technique>"
+		print("Useage: python inverted_pendulum.py <control_technique>")
 		sys.exit()
 	control_technique = arguments[1]
 	main(control_technique)
